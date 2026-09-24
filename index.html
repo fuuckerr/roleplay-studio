@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roleplay Studio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div><div class="brand">ROLEPLAY<span>STUDIO</span></div><div class="sub">Characters • Scenarios • Stories</div></div>
+  <div class="status">● LOCAL SERVER</div>
+</header>
+<div class="layout">
+  <aside class="sidebar">
+    <h3>Characters</h3><div id="characters"></div>
+    <h3>Scenarios</h3><div id="scenarios"></div>
+  </aside>
+  <main class="chat">
+    <div class="hero" id="hero">
+      <div class="orb">✦</div><h1>Choose your story</h1>
+      <p>Select a character and scenario. Build a fictional story through choices and dialogue.</p>
+    </div>
+    <div id="messages"></div>
+    <form id="form" class="composer">
+      <input id="input" autocomplete="off" placeholder="Choose a character and scenario first…">
+      <button>Send ↗</button>
+    </form>
+  </main>
+</div>
+<script src="app.js"></script>
+</body></html>
